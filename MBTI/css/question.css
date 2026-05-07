@@ -1,0 +1,58 @@
+body {
+  background-image: url("../images/images/questions_bg.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.progress {
+  max-width: 500px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+}
+
+.progress .value {
+  /* 질문 수만큼 부모 크기의 상대 길이를 갖도록  */
+  width: 10%;
+  height: 20px;
+  background-color: #ffb103;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+.question-box {
+  max-width: 420px;
+  background-color: #fff;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 25ppx #dde2e8;
+}
+
+.question-box .number {
+  font-size: 60px;
+  font-weight: 900;
+  color: #2ec7a6;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.question-box .question {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.question-box .choice {
+  font-size: 22px;
+  border-radius: 120px;
+  margin-bottom: 20px;
+}
